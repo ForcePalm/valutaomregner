@@ -7,12 +7,13 @@
 	<link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <div>
-        <h1 align="center">Valutaomregner</h1>
+    <div id="top">
+        <h1>Valutaomregner</h1>
     </div>
-    <div align="center">
+    <div id="content" align="center">
 		<form onchange="valutamath()">
         <input id="dkk"/>
+			<img src="refresh.png"/>
 		<select id="valselect">
 		<?php
             $nb = simplexml_load_file('https://www.nationalbanken.dk/_vti_bin/DN/DataService.svc/CurrencyRatesXML?lang=da');

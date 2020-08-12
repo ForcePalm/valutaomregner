@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#top{
+	background-color: blue;
+	height: 10%;
+}
+#content {
+	background-color: #333;
+	height: 100%;
+}
+#dkk {
+	background-color: lightyellow; 
+	width: 15%;
+}
+#valuta {
+	width: 35%; 
+	background-color: lightgreen;
+}
+#valselect {
+		background-color: lightyellow;
+}
+
+h1{
+	text-align: center;
+	color: white;
+}
+img{
+	width: 3%;
+	height: 5%;
+	opacity: 0;
+}
+
+input, select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
